@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Children’s Dentistry",
+        "service_id": "01",
+        "title": "Our Approach to Children’s Dentistry",
+        "img": "https://i.ibb.co/FgRZBnj/child-dental.png",
+        "fee": "40.00",
+        "description": "Do you need a dentist for children in Overland Park? You’ve come to the right place. Our experienced dentists and staff are gentle, friendly, and ready to see kids of all ages. We provide dental care to infants, toddlers, children, and teenagers. We make every visit to our office a positive experience that will help them develop a great and lasting relationship with their dentist.We make scheduling simple, too. Book appointments for one child or your whole family at once! Get in, get out, and get on with your lives."
+    },
+        {
+            "name": "High-tech 3D x-rays",
+            "service_id": "02",
+            "title": "Modern dentistry done right",
+            "img": "https://i.ibb.co/LkWfDvG/3d-xray.png",
+            "fee": "40.00",
+            "description": "At Bowles Dental, our office has invested in some of the best dental technology around — if we do say so ourselves. Dr. Chad Bowles and our team are committed to seeking out the technology that will make your visits to our office more comfortable, more efficient, and result in more smiles for everyone.Not all technology is created equally, however. We look for scientifically proven, cutting-edge equipment that will provide value to you. Sure, we love to explain the science (we’ll talk your ear off if you want) but we’re more excited to show you how our technology benefits you. Want to learn more? Ask us about our newest high-tech dental equipment at your next checkup and cleaning."
+        },
+        {
+            "name": "Gum disease treatments",
+            "service_id": "03",
+            "title": "Our prevention-first approach to periodontal disease",
+            "img": "https://i.ibb.co/bByLD9c/gum-dises.png",
+            "fee": "40.00",
+            "description": "At Bowles Dental, our office has invested in some of the best dental technology around — if we do say so ourselves. Dr. Chad Bowles and our team are committed to seeking out the technology that will make your visits to our office more comfortable, more efficient, and result in more smiles for everyone.Not all technology is created equally, however. We look for scientifically proven, cutting-edge equipment that will provide value to you. Sure, we love to explain the science (we’ll talk your ear off if you want) but we’re more excited to show you how our technology benefits you. Want to learn more? Ask us about our newest high-tech dental equipment at your next checkup and cleaning."
+        },
+        {
+            "name": "Tooth Whitening",
+            "service_id": "04",
+            "title": "Don’t let stained and discolored teeth hold you back",
+            "img": "https://i.ibb.co/PtD8L1W/tooth-whiting.png",
+            "fee": "40.00",
+            "description": "Stained and discolored teeth are extremely common and can affect the way you look and feel. Do you dream of a picture-perfect dazzling smile? Or are you looking for a less dramatic but still life-changing smile transformation?Whatever you hope to achieve, we offer teeth whitening treatments to brighten your smile. At Bowles Dental, we can help with tooth stains caused by:Remember though, your health and wellness are our top priorities. We’ll help you fix decay, gum disease, and other issues to create a lasting and healthy foundation before beginning any cosmetic treatments."
+        },
+        {
+            "name": "Root Canal",
+            "service_id": "05",
+            "title": "Everything root canals should be",
+            "img": "https://i.ibb.co/6HFPfZK/root-canel.png",
+            "fee": "40.00",
+            "description": "Stained and discolored teeth are extremely common and can affect the way you look and feel. Do you dream of a picture-perfect dazzling smile? Or are you looking for a less dramatic but still life-changing smile transformation?Whatever you hope to achieve, we offer teeth whitening treatments to brighten your smile. At Bowles Dental, we can help with tooth stains caused by:Remember though, your health and wellness are our top priorities. We’ll help you fix decay, gum disease, and other issues to create a lasting and healthy foundation before beginning any cosmetic treatments."
+        },
+        {
+            "name": "White Fillings",
+            "service_id": "06",
+            "title": "Everything root canals should be",
+            "img": "https://i.ibb.co/p3fygWm/white-filling.png",
+            "fee": "40.00",
+            "description": "Stained and discolored teeth are extremely common and can affect the way you look and feel. Do you dream of a picture-perfect dazzling smile? Or are you looking for a less dramatic but still life-changing smile transformation?Whatever you hope to achieve, we offer teeth whitening treatments to brighten your smile. At Bowles Dental, we can help with tooth stains caused by:Remember though, your health and wellness are our top priorities. We’ll help you fix decay, gum disease, and other issues to create a lasting and healthy foundation before beginning any cosmetic treatments."
+        }
+]
