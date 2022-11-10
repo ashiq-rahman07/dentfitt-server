@@ -22,6 +22,12 @@ async function run() {
         const serviceCollection = client.db('dentFitt').collection('dentalServices');
         const reviewCollection = client.db('dentFitt').collection('reviews');
 
+        app.post('/jwt', (req, res) => {
+            const user = req.body;
+            console.log(user)
+        })
+
+
         app.post('/services', async (req, res) => {
             const service = req.body;
             console.log(service);
@@ -59,7 +65,7 @@ async function run() {
             }
 
             const cursor = reviewCollection.find(query);
-            
+
             const reviews = await cursor.toArray();
             res.send(reviews);
         });
@@ -68,8 +74,8 @@ async function run() {
 
             if (req.query.service) {
                 query = {
-                 
-                    service:req.query.service
+
+                    service: req.query.service
                 }
             }
 
