@@ -16,7 +16,9 @@ app.use(express.json());
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.ykgjeea.mongodb.net/?retryWrites=true&w=majority`;
 
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
-
+function verifyJWT(req,res,next){
+    console.log(req.headers.authorization)
+}
 async function run() {
     try {
         const serviceCollection = client.db('dentFitt').collection('dentalServices');
@@ -24,7 +26,8 @@ async function run() {
 
         app.post('/jwt', (req, res) => {
             const user = req.body;
-            const token = jwt.sign(user, process.env.ACCESS_TOKEN_SECRET, {expiresIn:'1h'})
+            const token = jwt.sign(user, process.env.ACCESS_TOKEN_SECRET, {expiresIn:'1h'});
+            res.send({ token })
         })
 
 
@@ -55,7 +58,8 @@ async function run() {
 
 
         //reviews api
-        app.get('/reviews', async (req, res) => {
+        app.get('/reviews',verifyJWT, async (req, res) => {
+            
             let query = {};
 
             if (req.query.email) {
